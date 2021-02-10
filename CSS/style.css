@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+nav {
+  background: linear-gradient(to right, #2b2b2b, #0909096b);
+  height: 74px;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  display: flex;
+  margin-top: -59px;
+  margin-right: 23px;
+  color: white;
+}
+
+li {
+  padding: 16px 35px;
+  font-size: 19px;
+  font-family: "Varela Round", sans-serif;
+}
+
+li a {
+  text-decoration: none;
+}
+li a:hover {
+  color: #19b6bb;
+}
+h1 {
+  width: 20%;
+  color: white;
+  font-family: "Bangers", cursive;
+  letter-spacing: 12px;
+  font-size: 58px;
+  padding-top: 4px;
+  padding-left: 25px;
+  text-shadow: 10px 0px 19px white;
+}
+.clear-bouth {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.btn1 {
+  background-color: #0dc8cea1;
+  padding: 12px;
+  border-radius: 2px;
+}
+.btn1:hover {
+  background-color: #2f6d6fa1;
+}
+.home {
+  color: #19b6bb;
+}
+
+section {
+  background: #a4aaab40;
+  height: 700px;
+}
+.text-about {
+  position: absolute;
+  right: 0;
+  width: 45%;
+  margin: 45px 12px;
+  background: #090909d9;
+  padding: 12px 16px 12px 12px;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.58),
+    0 2px 10px 1px rgba(0, 0, 0, 0.33);
+}
+h4 {
+  font-size: 66px;
+  margin: 39px 14px;
+  color: white;
+  font-family: "Bubblegum Sans", cursive;
+}
+h2 {
+  font-family: "Glegoo", serif;
+  font-size: xx-large;
+  color: #e2cfcf7a;
+  text-shadow: 1px 4px 12px white;
+  letter-spacing: 2px;
+}
+.text-about p {
+  font-family: "Contrail One", cursive;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: white;
+  font-size: 16px;
+  width: 75%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.social-media {
+  display: flex;
+}
+.social-media a {
+  color: #d8d5d5;
+  margin: 5px 21px;
+  font-size: 22px;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+
+.social-media a:hover {
+  background: #a7a19afc;
+  color: white;
+}
+.cards {
+  display: flex;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.all-cars h4 {
+  font-size: 20px;
+  color: #f5ecec61;
+  margin: 13px 10px;
+}
+.all-cars {
+  width: 32%;
+  background: #131313;
+  padding: 12px 12px;
+  margin: 27px;
+  border-radius: 3px;
+  padding-bottom: 73px;
+  box-shadow: 0 2px 6px 3px rgba(247, 244, 244, 0.58),
+    0 2px 10px 1px rgba(251, 245, 245, 0.33);
+  position: relative;
+}
+.all-cars p {
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: white;
+  font-family: "Spinnaker", sans-serif;
+}
+.all-cars a {
+  padding: 12px;
+  margin-bottom: 14px;
+  background: #5a6e6f;
+  position: absolute;
+  right: 9px;
+  bottom: 0;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+  font-family: "Contrail One", cursive;
+  transition: .5s;
+  display: none;
+ 
+}
+
+.all-cars a:hover {
+  color: #4c4242;
+  background: #5f9ea0bf;
+}
+
+.menu-mobile {
+  display: none;
+  color: white;
+  text-align: right;
+  font-size: 33px;
+  margin-right: 14px;
+  margin-top: -48px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email {
+  padding-top: 12px;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin: 13px;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+.footer1 {
+  background: #090909;
+  margin-top: -13px;
+}
+.footer2 {
+  padding: 20px;
+  font-size: 17px;
+  background: #000000e0;
+  color: white;
+}
+.pyhton {
+  color: white;
+  float: right;
+  margin: 12px;
+  margin-top: -30px;
+  font-size: xx-large;
+}
+
+.tooltip {
+  position: relative;
+  transition: .4s;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background: linear-gradient(to right, #444141, #777171f2);
+  color: #fff;
+  text-align: center;
+  border-radius: 14px 2px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: 12px;
+  transition: 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 26px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 46px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.erour404 p {
+  text-align: center;
+  padding-top: 130px;
+  font-size: 229px;
+}
+.ee {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.imgbg {
+  width: 691px;
+  margin-left: -78px;
+}
+
+.homesection {
+  background: linear-gradient(to right, #0c0c0cc7, #3c3a3a);
+}
+.main-skills{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #090909;
+    color: white;
+    padding: 16px;
+}
+.skill{
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 11px;
+
+}
+.image-skill{
+  width: 60px;
+}
+
+.skill-name{
+  text-align: center;
+}
+
+.skill-title{
+  padding-top: 12px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Bubblegum Sans", cursive;
+    background-color: #090909;
+}
+
+
+@media screen and (max-width: 1040px) {
+  .imgbg {
+    margin-left: -200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .imgbg {
+    margin-left: -244px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  ul {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+  h4 {
+    margin: 21px 14px;
+    font-size: 45px;
+  }
+  .cards {
+    display: block;
+  }
+  .all-cars {
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  .footer1 {
+    padding-bottom: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .text-about {
+    width: 87%;
+    margin-top: 401px;
+  }
+  section {
+    height: 902px;
+  }
+  .imgbg {
+    margin: 0;
+    width: 395px;
+  }
+  .divimg {
+    text-align: center;
+  }
+  .image-skill{
+    width: 50px;
+  }
+  .skill-name{
+    font-size: 14px;
+    
+  }
+  .main-skills {
+    padding: 5px;
+  }
+  .small-hiddn{
+    display: none;
+  }
+  
+ 
+}
+
+
+
+
+
+/*
+ * Animated CSS button
+ * Copyright Alexander Bodin 2019-09-07
+ *
+ * Useage: .class {@import button($button-size, $hue, $sat);}
+/* *: */
+
+
+@media screen and (max-width: 450px) {
+  .imgbg {
+    margin-left: -244px;
+  }
+  .social-media a{
+    padding: 0;
+  }
+  .erour404 p{
+    font-size: 200px;
+  }
+  
+}
+
+@media screen and (max-width: 353px) {
+  section {
+    height: 932px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  nav {
+    height: 57px;
+  }
+}
+
+@media screen and (max-width: 291px) {
+  section {
+    height: 952px;
+  }
+}
